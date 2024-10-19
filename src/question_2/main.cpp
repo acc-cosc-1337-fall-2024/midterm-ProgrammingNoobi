@@ -1,4 +1,4 @@
-#include "points.h"
+#include "questions2.h"
 
 // Function to calculate points earned based on the number of widgets sold
 int get_earned_points(int sold) {
