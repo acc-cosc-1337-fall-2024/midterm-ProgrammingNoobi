@@ -1,8 +1,8 @@
 bool test_config();
-#ifndef GCD_H
-#define GCD_H
+#ifndef POINTS_H
+#define POINTS_H
 
-// Function to find the greatest common divisor (GCD)
-int find_gcd(int a, int b);
+// Function to calculate points earned based on the number of widgets sold
+int get_earned_points(int sold);
 
-#endif // GCD_H
+#endif // POINTS_H
