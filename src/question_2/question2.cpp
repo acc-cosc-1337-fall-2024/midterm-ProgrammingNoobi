@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip>
-#include "points.h"
+#include "questions2.h"
 
 int main() {
     int widgets_sold;
