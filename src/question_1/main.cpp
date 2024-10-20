@@ -1,5 +1,5 @@
 #include <iostream>
-#include "factorial.h"
+#include "question1.h"
 
 int main() {
     int number;
