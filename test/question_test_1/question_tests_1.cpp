@@ -2,11 +2,10 @@
 #include "catch.hpp"
 #include "question1.h"
 
-TEST_CASE("Verify Test Configuration", "verification") {
-	REQUIRE(true == true);
-}
-
-TEST_CASE("test")
-{
-	REQUIRE(test_config() == true);
+// Test to verify that the GCD function works with specified test cases
+TEST_CASE("GCD Test Cases") {
+    // Define test cases
+    REQUIRE(find_gcd(15, 25) == 5);
+    REQUIRE(find_gcd(16, 32) == 16);
+    REQUIRE(find_gcd(159, 309) == 3);
 }
